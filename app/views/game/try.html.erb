@@ -1,0 +1,16 @@
+<h1>Hi/Lo Game</h1>
+<h3>Choose a number between 1 and 100. You have three attempts to guess the secret number. Choose wisely! </h3>
+<p>
+  The number of tries is: <%= cookies[:counter]%>
+</p>
+
+<%=params[:guess]%>
+
+<%= @result %>
+<br />
+
+
+
+<p>
+  (the secret number is: <%= cookies[:secret_number] %>)
+</p>
